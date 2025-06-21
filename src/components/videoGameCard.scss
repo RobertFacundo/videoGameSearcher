@@ -1,0 +1,44 @@
+.video-game-card {
+    background-color: #111; // un gris muy oscuro para que contraste con el negro
+    color: white;
+    border-radius: 8px;
+    padding: 12px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.9s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    img {
+        width: 100%;
+        border-radius: 6px;
+        max-height: 150px;
+    }
+
+    h3 {
+        margin-top: 8px;
+        margin-bottom: 4px;
+        padding-bottom: 6px;
+        border-bottom: 2px solid rgba(255, 255, 255, 0.419);
+        font-family: 'Raleway';
+        color: #ffffff; // color dorado
+
+        text-shadow:
+            0 0 2px #ffffffd0,
+            0 0 3px #ffffff80,
+            0 0 7px transparent;
+    }
+
+    p {
+        font-size: 0.9rem;
+        opacity: 0.8;
+        padding: 6px;
+        font-family: 'Buda';
+        letter-spacing: 1px;
+    }
+
+    &:hover {
+        transform: translateY(-6px);
+        box-shadow: 0 8px 20px #ece9e1c5;
+    }
+}

@@ -1,12 +1,73 @@
-# React + Vite
+# 🎮 Video Game Searcher — Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React interface to explore video games. It includes an infinite carousel, an autocomplete search bar to filter games, and a responsive grid gallery with interactive cards that open YouTube trailers. All data is loaded from a local JSON file, styled with SCSS and subtle animations in a dark theme.
 
-Currently, two official plugins are available:
+---
+## 🌐 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔗 **Frontend App (Live)**: [https://videogame-searcher.vercel.app/](https://videogame-searcher.vercel.app/)
 
-## Expanding the ESLint configuration
+---
+## 🚀 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React 18 — Core UI library  
+  
+- SCSS — Custom styles and animations
+    
+- react-autosuggest — Autocomplete search functionality 
+   
+- Swiper — Infinite image carousel  
+  
+- Vercel — Frontend hosting and deployment  
+
+---
+
+## 🧠 Key Features
+
+- Responsive grid rendering video game cards from a local JSON data file (`mockGames`).  
+  
+- Infinite carousel highlighting selected game images.  
+  
+- Autocomplete search bar that filters games by name and opens the official YouTube trailer on selection.  
+  
+- Modern dark theme styling with subtle glowing text and hover animations.  
+  
+- Fixed footer with developer credits and external links.
+
+---
+## 📁 Project Structure
+
+```bash
+src/
+├── components/
+│   ├── Footer.jsx
+│   ├── InfiniteCarrousel.jsx
+│   ├── SearchBar.jsx
+│   ├── VideoGameCard.jsx
+│   └── VideoGameContainer.jsx
+├── data/
+│   └── games.js
+├── hooks/
+│   └── useSearchBar.js
+├── views/
+│   └── Home.jsx
+├── App.jsx
+├── index.js
+├── styles/
+│   ├── Footer.scss
+│   ├── InfiniteCarrousel.scss
+│   ├── SearchBar.scss
+│   ├── VideoGameCard.scss
+│   └── VideoGameContainer.scss
+└── 
+```
+
+---
+
+## 📬 Contact
+
+Created by **Facundo Robert** – [GitHub](https://github.com/RobertFacundo)  
+
+Feel free to reach out for collaboration or feedback!!
+
+----

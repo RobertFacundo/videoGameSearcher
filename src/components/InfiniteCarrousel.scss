@@ -1,0 +1,14 @@
+.swiper-infinite .swiper-wrapper {
+  transition-timing-function: linear !important; // Movimiento lineal constante
+}
+
+.carousel-slide {
+  width: auto !important;
+}
+
+.carousel-img {
+  width: 100%;
+  height: 300px;
+  object-fit: contain;
+  display: block;
+}
